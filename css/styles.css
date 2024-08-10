@@ -1,0 +1,61 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+  height: 200px;
+}
+
+.rating i {
+  color: #ffd700;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.breadcrumb {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 20px 0;
+}
+
+.navbar-nav .dropdown-menu {
+  right: 0;
+  left: auto;
+}
+
+.navbar-nav .dropdown-menu a.dropdown-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .dropdown-menu a.dropdown-item i {
+  margin-right: 8px;
+}
+
+.wishlist-icon {
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.wishlist-icon.in-wishlist {
+  color: red;
+}
+
+.wishlist-icon:hover {
+  color: #c82333;
+}
